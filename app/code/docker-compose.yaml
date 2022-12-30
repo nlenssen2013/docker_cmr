@@ -1,0 +1,8 @@
+version: '3.6'
+services:
+  cmr_search:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
